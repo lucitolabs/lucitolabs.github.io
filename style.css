@@ -22,6 +22,7 @@ main {
 }
 
 h1 { font-size: 2rem; margin: 0 0 8px; }
+h1 .logo { display: block; max-width: 100%; height: auto; margin-left: -57px; }
 h2 { font-size: 1.25rem; margin: 32px 0 8px; }
 p, li { color: var(--fg); }
 .muted { color: var(--muted); }
