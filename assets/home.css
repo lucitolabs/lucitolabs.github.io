@@ -151,6 +151,8 @@ footer { border-top: 1px solid var(--line); flex-wrap: wrap; }
 
 /* Reveal after the splash */
 .has-splash [data-rise] { opacity: 0; transform: translateY(24px); }
+/* The footer sits on the viewport's bottom edge; shifting it adds a scrollbar during the reveal. */
+.has-splash footer[data-rise] { transform: none; }
 .is-ready [data-rise] { opacity: 1; transform: none; transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out); transition-delay: calc(var(--i, 0) * 70ms); }
 .splash { position: fixed; inset: 0; z-index: 50; width: 100%; height: 100%; background: var(--bg); cursor: pointer; }
 .splash.is-gone { opacity: 0; transition: opacity 0.4s; pointer-events: none; }
