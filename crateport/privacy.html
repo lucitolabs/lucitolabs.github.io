@@ -14,12 +14,25 @@
   <main>
     <p><a href="../">Lucito Labs</a></p>
     <h1>Crateport Privacy Policy</h1>
-    <p class="muted">Effective date: November 11, 2026</p>
+    <p class="muted">Effective date: November 24, 2026</p>
 
     <p>This policy explains how Crateport (the "Game"), made by Lucito Labs, handles information. It applies to the Game on Android.</p>
 
     <h2>Information we collect</h2>
-    <p>Lucito Labs does not run its own servers and does not collect personal data directly. The Game has no user accounts and no analytics of its own. The only data that leaves your device is the data processed by our advertising partner, described below.</p>
+    <p>Lucito Labs does not run its own servers and the Game has no user accounts. Data leaves your device only through two Google services: crash reports and usage statistics (Firebase), and ads (AdMob), both described below.</p>
+
+    <h2>Crash reports and usage statistics</h2>
+    <p>The Game uses Firebase Crashlytics and Google Analytics for Firebase, provided by Google, to find and fix crashes and to understand how the Game is played so we can balance its levels. When the Game first starts, it creates a random installation ID; it is not your name, email or advertising ID, and it is not linked to them. Crash reports carry that ID; usage statistics carry it only while Analytics may store information on your device (see below). The following data is sent to Google:</p>
+    <ul>
+      <li>Crash and error reports: where in the Game's code the problem happened, a short log of recent in-game events (such as the level you were playing and your moves), the app version, device model, operating system version and the device's state at the time (for example free memory and orientation)</li>
+      <li>Gameplay events: levels started, lost and finished (port and level number, moves, the target number of moves, stars, time spent, how many times you lost and continued, and how many helpers you used), continues taken and how they were paid for (a helper you owned, coins or a rewarded ad), helpers used and their price in coins, chests opened, which optional rewarded ads were offered and whether an ad was shown or watched to the end, and when the Game asked Google Play to show its rating card</li>
+      <li>Information collected automatically by Google Analytics: app opens, session length, app version, device model, operating system, language, the country estimated from your IP address, the day the Game was installed, and the Firebase app instance and installation IDs</li>
+    </ul>
+    <p>This data is encrypted in transit and is used only to improve the Game. It is not used for advertising: Analytics does not collect your advertising ID or Android ID, never shares advertising signals, and is not linked to AdMob. Crashlytics keeps crash reports for 90 days; Analytics keeps event data for 2 months and data tied to the installation, such as its identifiers, for 14 months after you last play. Where consent is required by law, for example in the European Economic Area, the United Kingdom and Switzerland, Analytics stores identifiers on your device and receives the installation ID only if you allow storing and accessing information on your device in the consent form; without that permission it sends only events without identifiers or cookies, which Google uses in aggregate. You can change this from Privacy options in the Game's settings. You can stop sending crash and error reports with the Crash reports switch, and usage statistics with the Usage data switch, at any time in the Game's settings. Learn how Google handles Firebase data at <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+    <p>If you use Report a problem in the Game's settings, the email it prepares contains your installation ID, your device model and Android version, the level you have reached, your stars, your two switches and a short list of your recent in-game events, so we can match your report with crash reports. You can ask us to delete that data at any time, as described under <a href="#data-deletion">Deleting your data</a>.</p>
+
+    <h2>Updates and ratings</h2>
+    <p>The Game uses Google Play's in-app updates to show when a newer version is available and to install it when you tap the card, and Google Play's in-app review to sometimes show Google Play's rating card. Google Play decides whether that card appears, and the Game never learns whether you rated it or what you wrote. Both are handled by Google Play under your Google account.</p>
 
     <h2>Advertising</h2>
     <p>The Game shows ads served by Google AdMob: a banner at the bottom of the screen during levels, ads between levels, and optional rewarded ads (for example, watching an ad to continue a level, double the coins you won or get a helper). To deliver and measure ads and to prevent fraud, the Google Mobile Ads SDK automatically collects and shares the following data with Google:</p>
@@ -29,14 +42,32 @@
       <li>Diagnostic information, such as app and SDK performance</li>
       <li>Device identifiers: the advertising ID and app set ID</li>
     </ul>
-    <p>This data is encrypted in transit. Where required by law, for example in the European Economic Area, the United Kingdom and Switzerland, the Game asks for your consent before personalized ads are shown, and you can change your choice later from Privacy options in the Game's settings. You can reset or delete your advertising ID in your device settings. Learn how Google uses this data at <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>.</p>
+    <p>This data is encrypted in transit. Where required by law, for example in the European Economic Area, the United Kingdom and Switzerland, the Game asks for your consent before personalized ads are shown, and you can change your choice later from Privacy options in the Game's settings. You can reset or delete your advertising ID in your device settings. Learn how Google uses this data at <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> and how long Google keeps it at <a href="https://policies.google.com/technologies/retention">policies.google.com/technologies/retention</a>.</p>
+
+    <h2 id="your-choices">Your choices</h2>
+    <p>You can change or withdraw your choices at any time:</p>
+    <ul>
+      <li>Consent for ads and on-device storage (where required by law): in the Game, open Settings and tap Privacy options.</li>
+      <li>Crash reports and usage statistics: turn off the Crash reports or Usage data switch in the Game's settings.</li>
+      <li>Advertising ID: reset or delete it in your device settings (usually Settings &gt; Privacy &gt; Ads, or Settings &gt; Google &gt; Ads).</li>
+      <li>Data already sent: ask us to delete it as described under <a href="#data-deletion">Deleting your data</a>.</li>
+    </ul>
 
     <h2>Information stored on your device</h2>
-    <p>The Game saves your progress on your device: completed levels and stars, coins, helpers, daily rewards and quests, tutorial steps you have seen and your settings. This data stays in the Game's private storage and is never sent to us.</p>
+    <p>The Game saves your progress on your device: completed levels and stars, coins, helpers, chests, daily rewards and quests, tutorial steps you have seen, your settings, the random installation ID and how many times you have opened the Game. This data stays in the Game's private storage and is never sent to us.</p>
     <p>If backup is turned on for your device, the save file may be included in your device backup to your own Google account. Those backups are handled by Google under your account settings, and we cannot access them. Uninstalling the Game deletes the save file from your device.</p>
 
+    <h2 id="data-deletion">Deleting your data</h2>
+    <p>Crateport by Lucito Labs has no accounts, so your data is identified only by the Game's random installation ID. To have the crash reports and usage data linked to that ID deleted:</p>
+    <ol>
+      <li>In the Game, open Settings and tap Report a problem. Your email app opens with a message that already contains the line starting with "Install".</li>
+      <li>Write "Delete my data" in the message and send it to hello@lucitolabs.com without removing the Install line. If you can no longer open the Game, email us anyway and we will tell you what we can do.</li>
+      <li>Within 30 days, we delete the crash reports from Firebase Crashlytics and the usage data from Google Analytics that are linked to that ID, and reply to confirm.</li>
+    </ol>
+    <p>Reports and statistics that are already combined and no longer linked to any installation are not deleted. Advertising data is controlled by Google, not by us; you can reset or delete your advertising ID in your device settings. Your progress saved on your device is deleted when you uninstall the Game.</p>
+
     <h2>Permissions</h2>
-    <p>The Game uses the vibration permission for haptic feedback. You can turn vibration off in the Game's settings.</p>
+    <p>The Game uses the vibration permission for haptic feedback; you can turn vibration off in the Game's settings. The Google services above also use internet access and network state, the advertising ID permission, Google Play's install referrer, which tells Analytics from which store page the Game was installed, permissions that let them finish sending data in the background (wake lock and foreground service), and, for the ads SDK, basic phone state such as the type of mobile network, which gives no access to your phone number or calls.</p>
 
     <h2>Children</h2>
     <p>The Game is not directed to children under 13, and we do not knowingly collect personal information from children under 13.</p>
